@@ -1,0 +1,213 @@
+.topliste{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 900px;
+    height: 72px;
+    justify-content: space-between;
+}
+.search{
+    border: 1px solid black;
+    width: 513px;
+    height: 46px;
+    border-radius: 21px;
+    padding-left: 60px;
+}
+.catego{
+    margin-left: -180px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.esu{
+    margin-left: 1px;
+    margin-top: 8px;
+    
+}
+.ub{
+    margin-left: -12px;
+    margin-top: 8px;
+
+}
+.seaarch{
+    padding-left: 9px;
+}
+.panier{
+    margin-left: 7px;
+    margin-top: 7px;
+}
+.logon{
+margin-left: 19px;
+width: 110px;
+height: 40px;
+margin-top: 3px;
+}
+.login{
+    margin-left: 9px;
+    width: 85px;
+    height: 40px;
+    margin-top: 3px;
+    background-color: black;
+}
+.p2detop{
+    margin-left: -39px;
+    color: white;
+    font-weight: 700px;
+    margin-top: 6px;
+}
+.earth{
+    margin-left: 30px;
+}
+.topliste p{
+    width: 150px;
+    font-size: 14px;
+}
+.pdetop{
+    margin-left: -27px;
+    font-weight: 600px;
+    margin-top: 6px;
+}
+.earth{
+    margin-left: 9px;
+    margin-top: 3px;
+
+}
+button{
+    border:1px solid black;
+    height: 40px;
+    width: 40px;
+    background-color:white;
+}
+.topbar{
+    background-color:white;
+}
+/*FOOTER................*/
+
+.footer{
+    width: 900px;
+    height: 293px;
+    background-color: rgb(28, 29, 31);
+    font-size: 14px;
+}
+.footergauche{
+    display: flex;
+    padding-top: 30px;
+}
+.ulfooter{
+    display: flex;
+}
+.avfooter{
+    background-color:rgb(28, 29, 31);
+}
+.footer{
+    display:flex;
+    color:white;
+}
+ul{
+    list-style-type: none;
+}
+.ligauche, .licentre, .lidroite, .lifin{
+    margin-top: 30px;
+    line-height: 27px;
+}
+.logofooter{
+    margin-top: 30px;
+}
+.licentre{
+    margin-left: -50px;
+}
+.lidroite{
+    margin-left: 140px;
+}
+.lifin{
+    margin-left: 380px;
+}
+.copyright{
+    margin-top: 150px;
+    font-size: 12px;
+}
+.francais{
+    background-color:rgb(28, 29, 31);
+    color:white;
+    border:1px solid white;
+}
+.globo{
+    margin-left: -10px;
+    margin-top: -6px;
+}
+/*voici le menu de la page se connecter*/
+.main{
+    width: 900px;
+    height:620px;
+}
+h4{
+    text-align: center;
+    font-size: 11px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+.hr{
+    margin-left: 460px;
+}
+.formes{
+    margin-left: 510px;
+    margin-top: 30px;
+
+}
+
+.f1{
+    width: 300px;
+height: 48px;
+display: flex;
+}
+.f2{
+    margin-top: -20px;
+    width: 300px;
+height: 48px;
+display: flex;
+}
+.f3{
+    margin-top: -20px;
+    width: 300px;
+height: 48px;  
+display: flex;
+justify-content:left;
+}
+.f4{
+    margin-top: -20px;
+    width: 300px;
+height: 48px;
+display: flex;
+}
+.f5{
+    margin-top: -20px;
+    width: 300px;
+height: 48px;
+display: flex;
+}
+.f6{
+    margin-top: -20px;
+    width: 300px;
+height: 48px;
+display: flex;
+background-color:darkorchid;
+color:white;
+justify-content:center;
+padding-top: 10px;
+border:1px solid ;
+}
+.blocpanier{
+    border: 1px solid rgb(141, 141, 141);
+    width: 600px;
+    height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.ecritsdepanier{
+    margin-left: 100px;
+    font-family: serif;
+}
+.ecritsdepanier h1{
+    font-weight: 600;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>udemyR&K.com</title>
+    <link rel="stylesheet" href="udemy.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min">
+</head>
+<body>
+<div class="container-fluid topbar">
+    <ul class="topliste" >
+        <li><svg viewBox="0 0" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.05 8.112L7.024 4.056 0 8.112V4.056L7.025 0l7.026 4.056v4.056h-.001z" fill="#A435F0"/><path d="M0 11.518h3.68v8.941c0 2.31 1.725 3.436 3.345 3.436 1.634 0 3.346-1.156 3.346-3.467v-8.91h3.68v9.154c0 2.128-.669 3.77-2.007 4.896-1.339 1.125-3.011 1.673-5.05 1.673-2.037 0-3.71-.547-5.017-1.673C.669 24.443 0 22.862 0 20.763v-9.245zM45.866 22.63c-1.114.992-2.383 1.478-3.83 1.478-2.64 0-4.41-1.504-4.61-3.833h11.89s.08-.752.08-1.458c0-2.19-.7-4.015-2.13-5.505-1.398-1.49-3.222-2.22-5.443-2.22-2.341 0-4.258.73-5.779 2.22-1.49 1.49-2.25 3.436-2.25 5.87v.12c0 2.403.76 4.319 2.25 5.749 1.49 1.429 3.467 2.159 5.87 2.159 2.794 0 5.017-1.102 6.685-3.002l-2.733-1.578zm-6.994-7.463c.82-.639 1.825-.973 2.95-.973 1.064 0 1.946.334 2.707 1.004.726.61 1.118 1.359 1.152 2.22H37.52c.118-.89.568-1.64 1.353-2.25zM82.91 29.276C81.417 32.801 79.855 34 77.46 34H75.8v-3.262h1.342c.824 0 1.59-.31 2.32-1.994l.73-1.686-6.296-15.54h3.741l4.471 11.192 4.593-11.192h3.74l-7.53 17.758zM28.377 5.649v7.257c-1.206-1.08-3.082-1.723-4.896-1.723-2.16 0-3.984.76-5.474 2.31-1.46 1.521-2.19 3.406-2.19 5.687 0 2.282.73 4.167 2.19 5.718 1.49 1.521 3.315 2.282 5.474 2.282 2.49 0 4.064-.979 4.896-1.746v1.411h3.65V5.65h-3.65zm-1.095 16.878c-.882.882-2.007 1.339-3.315 1.339-1.308 0-2.372-.457-3.254-1.339-.85-.882-1.277-2.007-1.277-3.345 0-1.339.426-2.464 1.277-3.346.882-.882 1.946-1.338 3.254-1.338s2.433.456 3.315 1.338c.912.882 1.37 2.007 1.37 3.346 0 1.338-.458 2.463-1.37 3.345zM68.222 11.214c-2.772 0-4.213 1.15-5.2 2.258-.395-.753-1.507-2.258-4.105-2.258-2.196 0-3.49 1.11-4.136 1.9V11.52h-3.618v15.327h3.618v-8.82c0-2.068 1.278-3.558 2.98-3.558 1.735 0 2.738 1.308 2.738 3.406v8.971h3.619v-8.82c0-2.098 1.246-3.558 3.04-3.558 1.734 0 2.737 1.308 2.737 3.405v8.972h3.65v-9.488c0-3.996-2.148-6.142-5.323-6.142z" fill="#000"/></svg></li>
+        <li  class="catego"lass >Catégories</li>
+        <li class="seaarch" ><input type="text" placeholder="rechercher" class="search"> </li>
+        <li class="ub"> <p>Udemy Business</p> </li>
+        <li class="esu" > <p>Enseigner sur Udemy</p> </li>
+        <li class="panier"> <a href="panier.html"> <b> <svg width="30" height="30" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="500" height="500" fill="url(#pattern0)"/>
+            <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_8_7" transform="scale(0.00195312)"/>
+            </pattern>
+            <image id="image0_8_7" width="400" height="400" xlink:href="data:image/png;base64,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"/>
+            </defs>
+            </svg></a></b>
+            </li>
+        <li ><a href="seconnecter.html"><button class="logon"><p class="pdetop"><b>Se connecter</b> </p> </button></a></li>
+        <li ><button class="login" > <p class="p2detop" > <b>S'inscrire</b> </p> </button></li>
+        <li ><Button class="earth" ><img src="IMGR&K/globe 1.svg" alt="globe"></Button></li>
+    </ul>
+</div>
+</div>
+<div class="femme">
+
+    <div class="fem">
+
+        <h1>Un apprentissage qui vous ressemble</h1>
+        <p> des compétences pour aujourd'hui (et demain). Nous vous accompagnons dans vos premiers pats</p>
+    </div>
+
+</div>
+<br>
+<br>
+
+<h2> Une large sélection de cours</h2>
+<p> choississez parmi 185 000 vidéos de cours en ligne. De nouveaux cours sont ajoutés tous les mois</p>
+<br>
+<p><b>Python      Excel     Développement web      JavaScript     Science des données       Certification       AWS      Dessin  </b></p>
+
+<div class="carossel">
+    <h2> Développez vos opportunités de carrière avec Python</h2>
+    <p>
+        Que vous travaillez dans le machine learning ou dans le développement web ou dans la science <br>
+         des données, le langage Python est l'une des compétences les plus importantes à acquérir. La syntaxe simple de <br>
+          Python convient particulièrement aux applications bureautiques. Web et commerciales.
+    </p>
+
+    <button class="btn"><b>Découvrez Python</b></button>
+
+    <br>
+
+    <div class="bloc">
+        <div class="a"><img src="images/photo1.jpg"></div>	
+        <div class="b"><img src="images/photo2.jpg"></div>
+        <div class="c"><img src="images/photo3.jpg"></div>
+        <div class="d"><img src="images/photo4.jpg"></div>
+        <div class="e"><img src="images/photo5.jpg"></div>
+    </div>
+    <div class="bloc">
+        <div class="a"><b>Python 3: La formation complète <br>
+        à la programmation</b> <br>
+        José Portillla.Marc Augier programmation...
+        1.1 	</div>
+
+        <div style="margin-left: 45px;" class="b"><b>Python: Cours complet pour<br>
+        débutant(maniplation...</b></div>
+
+        <div  style="margin-left: 20px;"class="c"><b>Python avancé: aller plus loin
+        </b></div>
+
+        <div  style="margin-left: 10px;"class="d"><b>Python 3: La formation <br>
+        à la programmation</b></div>
+
+        <div  style="margin-left: 40px;"class="e"><b>Python 3: La formation <br>
+        à la programmation</b></div>
+    </div>
+
+
+</div>
+     <br>
+     <br>
+     <br>
+     <div class="lundi">
+         <p><b>Obtenez des compétences à la demande grâc à plus de 185 000 <br>
+         cours et vidéos</b></p>
+         <p><b>Choississez des cours enseignés par des <br>
+         formateurs confirmés</b></p>
+         <p><b>Apprenez à votre rythme et bénéficiez <br>
+         d'un accès illimité sur mobile et <br>
+         ordinateur de bureau</b></p>
+     </div>
+
+     <br>
+     <br>
+     <br>
+
+
+     <h3> Les participants consultent</h3>
+     <div class="bloc">
+        <div class="a"><img style="margin-right: 20px;" src="images/photo6.jpg"></div>	
+        <div class="b"><img style="border: 1px solid #d1d7dc; margin-left: 10px;" src="images/photo7.jpg"></div>
+        <div class="c"><img style="margin-left: 10px;" src="images/photo8.jpg"></div>
+        <div class="d"><img style="margin-left: 10px;" src="images/photo9.jpg"></div>
+        <div class="e"><img style="border: 1px solid #d1d7dc; margin-left:20px;" src="images/photo10.jpg"></div>
+    </div>
+    <div class="bloc">
+        <div class="a"><b>Python 3: La formation complète <br>
+        à la programmation</b> <br>
+        José Portillla.Marc Augier programmation...
+        1.1 	</div>
+
+        <div style="margin-left: 45px;" class="b"><b>Python: Cours complet pour<br>
+        débutant(maniplation...</b></div>
+
+        <div  style="margin-left: 20px;"class="c"><b>Python avancé: aller plus loin
+        </b></div>
+
+        <div  style="margin-left: 10px;"class="d"><b>Python 3: La formation <br>
+        à la programmation</b></div>
+
+        <div  style="margin-left: 40px;"class="e"><b>Python 3: La formation <br>
+        à la programmation</b></div>
+    </div>
+
+
+     <br>
+
+    <h3>Meilleurs catégories</h3>
+    <div class="blocus">
+        <div class="g"><img style="margin-right: 20px;" src="images/design1.jpg"><b>Design</b></div>
+        <div class="h"><img style="margin-right: 20px;" src="images/design2.jpg"><b>Développement</b></div>
+        <div class="i"><img style="margin-right: 20px;" src="images/design3.jpg"><b>Marketing</b></div>
+        <div class="j"><img style="margin-right: 20px;" src="images/design4.jpg"><b>Informatique et logicièls</b></div>
+    </div>
+    <div class="blocus1">
+        <div class="k"><img style="margin-right: 20px;" src="images/design5.jpg"><b>Développement personnel</b></div>
+        <div class="l"><img style="margin-right: 20px;" src="images/design6.jpg"><b>Business</b></div>
+        <div class="m"><img style="margin-right: 20px;" src="images/design7.jpg"><b>Photographie</b></div>
+        <div class="n"><img style="margin-right: 20px;" src="images/design8.jpg"><b>Musique</b></div>
+    </div> 
+    <br>
+    <br>	
+
+    <div class="blocus2">
+        <h3>Featured topics by category</h3>
+
+        <br>
+     <div class="blocus3">
+       <h5><b>Développement</b></h5>     <h5><b>Business</b></h5> <h5><b> Infographie et logicièls</b></h5> <h5><b>Design</b></h5>
+        <p>	</p>
+      </div>	
+    </div>
+
+     <br>
+      <div class="blocus4">
+          
+      <img style="margin-left: 350px;" src="images/instructor.jpg">
+      <div class="instructeur">
+
+          <h3><b>Devenir un formateur</b></h3><br>
+          
+          <p style="margin-right:80px;">Nos formateurs du monde entier donnent des cours à des millions de participants sur Udemy. Nous vous offrons les outils et les compétences nécessaires pour enseigner ce que vous aimez.
+
+      </p>
+          <button>Commencez à enseinger dès aujourd'hui</button>
+
+      </div>
+
+
+      </div>
+
+      <br>
+
+       <div class="blocus5"> 
+           <h5>Des entreprises de toutes tailles nous font confiances</h5> 
+           <br>
+
+           <img src="images/eventbrite-dark.svg">
+           <img src="images/nasdaq-dark.svg">
+           <img src="images/volkswagen-dark.svg">
+           <img src="images/box-dark.svg">
+           <img src="images/netapp-dark.svg">
+       </div>
+
+<div class="container-fluid footer ">
+
+    <div class="lot1">
+        <ul class="ligauche">
+            <li>Udemy Business</li>
+            <li>Enseigner sur Udemy</li>
+            <li>Télécharger l'application</li>
+            <li>A propos d'Udemy</li>
+            <li>Contactez-nous</li> <br>
+            <li><svg class="logofooter" viewBox="0 0" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.05 8.112L7.024 4.056 0 8.112V4.056L7.025 0l7.026 4.056v4.056h-.001z" fill="#A435F0"/><path d="M0 11.518h3.68v8.941c0 2.31 1.725 3.436 3.345 3.436 1.634 0 3.346-1.156 3.346-3.467v-8.91h3.68v9.154c0 2.128-.669 3.77-2.007 4.896-1.339 1.125-3.011 1.673-5.05 1.673-2.037 0-3.71-.547-5.017-1.673C.669 24.443 0 22.862 0 20.763v-9.245zM45.866 22.63c-1.114.992-2.383 1.478-3.83 1.478-2.64 0-4.41-1.504-4.61-3.833h11.89s.08-.752.08-1.458c0-2.19-.7-4.015-2.13-5.505-1.398-1.49-3.222-2.22-5.443-2.22-2.341 0-4.258.73-5.779 2.22-1.49 1.49-2.25 3.436-2.25 5.87v.12c0 2.403.76 4.319 2.25 5.749 1.49 1.429 3.467 2.159 5.87 2.159 2.794 0 5.017-1.102 6.685-3.002l-2.733-1.578zm-6.994-7.463c.82-.639 1.825-.973 2.95-.973 1.064 0 1.946.334 2.707 1.004.726.61 1.118 1.359 1.152 2.22H37.52c.118-.89.568-1.64 1.353-2.25zM82.91 29.276C81.417 32.801 79.855 34 77.46 34H75.8v-3.262h1.342c.824 0 1.59-.31 2.32-1.994l.73-1.686-6.296-15.54h3.741l4.471 11.192 4.593-11.192h3.74l-7.53 17.758zM28.377 5.649v7.257c-1.206-1.08-3.082-1.723-4.896-1.723-2.16 0-3.984.76-5.474 2.31-1.46 1.521-2.19 3.406-2.19 5.687 0 2.282.73 4.167 2.19 5.718 1.49 1.521 3.315 2.282 5.474 2.282 2.49 0 4.064-.979 4.896-1.746v1.411h3.65V5.65h-3.65zm-1.095 16.878c-.882.882-2.007 1.339-3.315 1.339-1.308 0-2.372-.457-3.254-1.339-.85-.882-1.277-2.007-1.277-3.345 0-1.339.426-2.464 1.277-3.346.882-.882 1.946-1.338 3.254-1.338s2.433.456 3.315 1.338c.912.882 1.37 2.007 1.37 3.346 0 1.338-.458 2.463-1.37 3.345zM68.222 11.214c-2.772 0-4.213 1.15-5.2 2.258-.395-.753-1.507-2.258-4.105-2.258-2.196 0-3.49 1.11-4.136 1.9V11.52h-3.618v15.327h3.618v-8.82c0-2.068 1.278-3.558 2.98-3.558 1.735 0 2.738 1.308 2.738 3.406v8.971h3.619v-8.82c0-2.098 1.246-3.558 3.04-3.558 1.734 0 2.737 1.308 2.737 3.405v8.972h3.65v-9.488c0-3.996-2.148-6.142-5.323-6.142z" fill="#fff"/></svg></li>
+        </ul>
+    </div>
+    <div class="lot2">
+        <ul class="licentre">
+            <li>Carrières</li>
+            <li>Blog</li>
+            <li>Aide et support</li>
+            <li>Affilié</li>
+            <li>Investisseurs</li>
+        </ul>
+    </div>
+    <div class="lot3">
+        <ul class="lidroite">
+            <li>Conditions</li>
+            <li>Politique de confidentialité</li>
+            <li>Paramètres de cookies</li>
+            <li>Plan du site</li>
+            <li>Déclaration d'accessibilité</li>
+        </ul>
+    </div>
+    <div class="lot4">
+        <ul class="lifin">
+            <li style="font-size: 17px;" > <button style="width: 130px; height:35px;" class="francais" > <img class="globo" src="IMGR&K/globe (blanc) 1.svg" alt="globe2"> Français</button></li> <br>
+            <li class="copyright" > © 2022 Udemy, Inc.</li>
+            
+        </ul>
+    </div>
+   
+</div>
+</body>
+</html>
